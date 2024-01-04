@@ -7,7 +7,7 @@ Time spent: **9** hours spent in total
 
 ## Pen Testing Report
 
-### 1. (Required) Vulnerability Name: Username enumararion
+### 1. Vulnerability Name: Username enumararion
 
 - [ ] Summary: Find valid usernames using wpscan
    
@@ -20,7 +20,7 @@ Time spent: **9** hours spent in total
   
 
     
-### 2. (Required) Vulnerability Name: Password Enumeration
+### 2. Vulnerability Name: Password Enumeration
 
 - [ ] Summary: Find correct passwords for the usernames found in previous challenge using wpscan
   
@@ -35,7 +35,7 @@ password.txt → a file with known passwords, use a sample size.
 
     
 
-### 3. (Required) Vulnerability Name: Unauthenticated Stored Cross-Site Scripting
+### 3. Vulnerability Name: Unauthenticated Stored Cross-Site Scripting
 
 - [ ] Summary: Insert a script that goes to a codepath website in comment section of the website.
   
